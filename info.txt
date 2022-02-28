@@ -1,0 +1,6 @@
+username: netflix--clone
+p: Netflix
+
+eafe3b8b0c0893a1d2a3fcea5d04928e
+
+https://api.themoviedb.org/3/movie/550?api_key=eafe3b8b0c0893a1d2a3fcea5d04928e
