@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Row() {
+function Row({ title }) {
   return (
     <div>
-        {/* title */}
+        <h1>{title}</h1>
         
         {/* container --> posters */}
     </div>
