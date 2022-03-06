@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Row({ title }) {
+    const [movies,setMovies] = useState([]);
+    
+
   return (
     <div>
         <h1>{title}</h1>
-        
+
         {/* container --> posters */}
     </div>
   )
