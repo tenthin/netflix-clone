@@ -1,4 +1,5 @@
 import React, { useState,useEffect } from 'react'
+import axios from './axios';
 
 function Row({ title }) {
     const [movies,setMovies] = useState([]);
@@ -6,6 +7,10 @@ function Row({ title }) {
     // A snippet of code which runs based on a specific condition/variable
     useEffect(() => {
         // 
+        async function fetchData() {
+
+        }
+        fetchData();
     },[])
 
     return (
@@ -17,4 +22,4 @@ function Row({ title }) {
     )
 }
 
-export default Row
+export default Row;
