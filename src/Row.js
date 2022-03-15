@@ -16,10 +16,15 @@ function Row({ title,fetchUrl }) {
     },[fetchUrl])
 
     return (
-        <div>
+        <div className="row">
             <h1>{title}</h1>
 
-            {/* container --> posters */}
+            <div className="row__posters">
+            {/* several row poster */}
+            {movies.map(movie => (
+                <img src={movie.poster_path} alt={movie.name} />
+            ))}
+            </div>
         </div>
     )
 }
