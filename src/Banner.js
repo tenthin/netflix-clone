@@ -37,4 +37,18 @@ function Banner() {
         )`,
         backgroundPosition: "center center"
       }}
-    ></header>
+    >
+        <div className="banner_contents">
+        <h1 className="banner_title">
+          {movie?.title || movie?.name || movie?.original_name}
+        </h1>
+
+
+    </header>
+
+  )
+}
+
+export default Banner
+
+    
